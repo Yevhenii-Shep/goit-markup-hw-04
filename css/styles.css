@@ -69,7 +69,6 @@ img {
 .nav-link {
   color: #404bbf;
   font-weight: 500;
-  transition: color 250ms ease;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -281,7 +280,6 @@ img {
    0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
-.portfolio
 .portfolio-list {
   list-style: none;
   display: flex;
