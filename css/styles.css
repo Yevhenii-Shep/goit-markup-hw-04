@@ -123,10 +123,11 @@ img {
   padding: 188px 0;
   background-color: #2e2f42;
   text-align: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Icon1.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
   max-width: 1440px;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
+  background-position: center; 
 }
 
 .hero-title {
@@ -203,7 +204,17 @@ img {
   color: #434455;
   line-height: 1.5;
 }
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 
+}
 .team-section {
   padding: 120px 0;
   background-color: #f4f4fd;
